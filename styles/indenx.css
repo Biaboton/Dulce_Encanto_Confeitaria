@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --corPrimaria:rgb(38, 47, 77);
+    --corSecundaria:red;
+    --branco:red;
+}
+
+#cabecalho{
+    width: 360px;
+    height: 1000px;
+    background-color: rgb(101, 148, 248);
+}
+
+#button{
+    width: 300px;
+    height: 300px;
+}
