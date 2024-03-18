@@ -1,48 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-body{
-    background-color: #854d25;
-}
-:root{
-    --corPrimaria:rgb(38, 47, 77);
-    --corSecundaria:rgb(57, 134, 197);
-    --branco:#ff0000;
-}
-
-#cabecalho{
-    width: 100%;
-    height: 200px;
-    background-color:rgb(250, 215, 173);
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    font-family: 'Courier New', Courier, monospace;
-    justify-content: flex-end;
-    text-decoration-color:red;
-}
 
 
-#link{
-    width: 700px;
-}
 #button{
     width: 300px;
     height: 300px;
     border-radius: 6px ;
     
 }
-#banner{
-    width: 700px;
-    height: 100%;
-    background-color: rgb(101, 148, 248); 
-    color:rgb(255, 255, 255);
-    
-}
-
 .CatalogoDeBolo{
     display: flex;
     gap: 50px;
@@ -64,6 +27,13 @@ body{
 
     
 }
+#banner{
+    width: 700px;
+    height: 100%;
+    background-color: rgb(101, 148, 248); 
+    color:rgb(255, 255, 255);
+    
+}
 #conteudo{
     width: 100%;
     display: flex;
@@ -72,3 +42,4 @@ body{
     gap: 50px;
     justify-content: center;
 }
+
